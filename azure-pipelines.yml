@@ -68,7 +68,7 @@ stages:
       vmImage: 'ubuntu-18.04'
     environment: spike
     variables:
-    - group: Release
+    - group: vg01
     strategy:
       runOnce:
         deploy:
