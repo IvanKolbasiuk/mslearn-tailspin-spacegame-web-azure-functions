@@ -12,7 +12,7 @@ stages:
     variables:
       wwwrootDir: 'Tailspin.SpaceGame.Web/wwwroot'
       dotnetSdkVersion: '3.1.300'
-      buildConfiguration: '3456'
+      buildConfiguration: '1'
 
     steps:
     - task: UseDotNet@2
