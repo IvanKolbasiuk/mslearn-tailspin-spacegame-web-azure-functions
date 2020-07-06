@@ -69,7 +69,7 @@ stages:
     environment: spike
     variables:
     - group: vg01
-    buildConfiguration: '1'
+      buildConfiguration: '1'
     strategy:
       runOnce:
         deploy:
